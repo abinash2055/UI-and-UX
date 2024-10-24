@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+} 
+
+/* #nav {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    padding: 30px 50px;
+    justify-content: flex-end;
+}
+
+#nav h3 {
+    background-color: brown;
+    color: wheat;
+    padding: 15px 25px;
+    font-size: 20px;
+    margin-left: 8px;
+    border-radius: 50px;
+} */
+
+#intro {
+    height: 40%;
+    width: 100%;
+    padding: 55px 65px;
+}
+
+#intro h1 {
+    font-size: 130px;
+    letter-spacing: -4px;
+    line-height: 125px;
+}
+
+#place {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#place h3, #place h4 {
+    font-size: 25px;
+    margin-top: 10px;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+#humanimg {
+    height: 95%;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1468443750815-bd037f729b95?q=80&w=1902&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+#about {
+    height: 48%;
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    padding: 50px 60px;
+    align-items: center;
+    letter-spacing: -3px;
+    justify-content: space-between;
+}
+
+#about h2 {
+    font-size: 70px;
+    width: 65%;
+    line-height: 88px;
+}
+
+#about2 {
+    width: 32%;
+    height: 100%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid #000;
+}
+
+#about2 h3 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#icons i {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+#work {
+    height: 45%;
+    width: 100%;
+    display: flex;
+    padding: 50px 60px;
+    border-top: 2px solid #000;
+}
+
+#work1 {
+    width: 35%;
+    display: flex;
+    padding-right: 60px;
+    height: 34vw;
+    justify-content: space-between;
+    border-right: 2px solid #000;
+}
+
+#work1 h3 {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+#work i {
+    font-size: 40px;
+}
+
+#work2 {
+    height: 100%;
+    width: 65%;
+    padding: 0 60px;
+}
+
+.work2-part {
+    display: flex;
+    padding: 50px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.work2-part:nth-child(1) {
+    height: 18vw;
+    border-bottom: 2px solid #000;
+}
+
+.work2-part:nth-child(2) {
+    height: 18vw;
+    border-bottom: 2px solid #000;
+}
+
+.work2-part .elem {
+    width: 50%;
+    height: 100%;
+}
+
+.work2-part .elem:nth-child(1) {
+    padding-right: 40px;
+    border-right: 2px solid #000;
+}
+
+.work2-part .elem:nth-child(2) {
+    padding-left: 60px;
+}
+
+.work2-part .elem h4 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.work2-part .elem p {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
